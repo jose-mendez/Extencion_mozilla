@@ -1,0 +1,13 @@
+@import url("chrome://global/skin/");
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+.url
+{
+    color: #0000ff !important;
+    cursor: pointer !important;
+    text-decoration: underline !important;
+}
+.url:hover
+{
+    color: #ff0000 !important;
+}

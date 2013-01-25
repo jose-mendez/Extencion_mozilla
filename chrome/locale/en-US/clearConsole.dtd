@@ -1,0 +1,29 @@
+<!ENTITY ClearConsole.label "ClearConsole">
+<!ENTITY ClearConsoleContext.label "ClearConsole">
+<!ENTITY cookie.label "Clear cookies">
+<!ENTITY history.label "Clear history">
+<!ENTITY cache.label "Clear cache">
+<!ENTITY httpLogin.label "Clear http logins">
+<!ENTITY all.label "Clear all">
+<!ENTITY options.label "Options">
+<!ENTITY notify.label "Notification">
+<!ENTITY about.label "About">
+<!ENTITY restart.label "Restart the browser">
+<!ENTITY clearAllAndRestart.label "Clear all &amp; restart">
+<!ENTITY localStorage.label "Clear html5/local storage">
+
+<!ENTITY clearConsoleClearAllKey.accesskey "C">
+
+<!ENTITY localStorage.accesskey "S">
+<!ENTITY cookie.accesskey "C">
+<!ENTITY history.accesskey "H">
+<!ENTITY cache.accesskey "E">
+<!ENTITY httpLogin.accesskey "T">
+<!ENTITY all.accesskey "A">
+<!ENTITY options.accesskey "O">
+<!ENTITY notify.accesskey "N">
+<!ENTITY about.accesskey "B">
+<!ENTITY restart.accesskey "R">
+<!ENTITY clearAllAndRestart.accesskey "L">
+
+<!ENTITY ClearConsole.tooltip "Clear Console Button">

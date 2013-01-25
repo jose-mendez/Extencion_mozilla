@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+    <Description about="urn:mozilla:install-manifest">
+        <em:type>2</em:type> <!-- 2 : Extension -->
+        <em:id>clearConsole@penzil.net</em:id>
+        <em:version>1.7</em:version>
+        <em:name>Clear Console</em:name>
+        <em:creator>PenZil</em:creator>
+        <em:developer>Rejah Rehim A A</em:developer>
+	<em:developer>Sreenath Sasikumar</em:developer>
+  	<em:description>Clear your cache, cookies, history, http logins, all of them or restart your browser with/without notifications in a click.</em:description>
+        <em:homepageURL>http://PenZil-clearConsole.blogspot.com</em:homepageURL>
+        <em:iconURL>chrome://clearConsole/skin/clearConsole.png</em:iconURL>
+        <em:aboutURL>chrome://clearConsole/content/about.xul</em:aboutURL>
+	<em:optionsURL>chrome://clearConsole/content/clearConsoleOptions.xul</em:optionsURL>
+	<em:unpack>false</em:unpack>
+        <em:targetApplication>
+            <Description>
+                <!-- Firefox -->
+                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+                <em:minVersion>4.0</em:minVersion>
+                <em:maxVersion>18.*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+    </Description>
+</RDF>
